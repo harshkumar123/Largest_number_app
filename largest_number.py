@@ -12,7 +12,7 @@ def main():
     y = st.number_input("Enter second number", value=0)
     z = st.number_input("Enter third number", value=0)
     
-    if st.button("Find Largest"):
+    if st.button("Get Largest"):
         largest = find_largest(x, y, z)
         st.write(f"The largest number is: {largest}")
 
